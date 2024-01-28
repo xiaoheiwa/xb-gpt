@@ -145,10 +145,10 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-         小白不懂科技
+         小黑丸-智能助手
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          www.xbbdkj.com
+          3.xiaoheiwan.com
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -201,7 +201,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href="http://www.xbbdkj.com/" target="_blank">
+            <a href="http://3.xiaoheiwan.com/" target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
